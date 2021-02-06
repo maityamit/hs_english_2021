@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dida"
+    android:layout_height="match_parent"
+    tools:context=".ContactUSActivity">
+
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:id="@+id/twoxse"
+        android:src="@drawable/gra_contacts"/>
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="550dp"
+        android:layout_below="@id/twoxse"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/graphgift"/>
+
+
+
+
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="100dp"
+        android:id="@+id/chTTAING"
+        android:onClick="ChattingIntent"
+        android:layout_below="@id/twoxse"
+        android:layout_marginStart="15dp"
+        android:src="@drawable/chatiing"/>
+
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="100dp"
+        android:id="@+id/emailcontact"
+        android:onClick="EmailIntent"
+        android:layout_below="@id/chTTAING"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/emailus"/>
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="80dp"
+        android:id="@+id/telegram"
+        android:onClick="TelegramChattingIntent"
+        android:layout_below="@id/emailcontact"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/telegram"/>
+
+
+</RelativeLayout>

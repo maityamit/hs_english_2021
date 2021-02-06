@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hsenglishsuggestionabyamitmaity.example.hsenglish2021">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/koho"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/koho"
+        android:hardwareAccelerated="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".pdfviewActivity" />
+        <activity android:name=".LAQShowActivity" />
+        <activity android:name=".MCQShowActivity" />
+        <activity android:name=".LAQChapterActivity" />
+        <activity android:name=".MCQChapterActivity" />
+        <activity android:name=".ContactUSActivity" />
+        <activity android:name=".AboutusActivity" />
+        <activity android:name=".Class11HomeActivity" />
+        <activity android:name=".NotificationActivity" />
+        <activity android:name=".PastyearmainhomeActivity" />
+        <activity android:name=".FlashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+
+        <service android:name=".services.MyFireBaseInstanceService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+
+
+    </application>
+
+</manifest>

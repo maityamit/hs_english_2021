@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03DAC5</color>
+    <color name="colorPrimaryDark">#03DAC5</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="white">#ffffff</color>
+    <color name="transpwhite">#cccccc</color>
+    <color name="gradstart">#4cf4ff</color>
+    <color name="gradend">#1fa3f0</color>
+    <color name="tab">#c0c0c0</color>
+    <color name="latro">#008000</color>
+    <color name="amita">#FF1744</color>
+    <color name="amitb">#06E469</color>
+    <color name="gradStart">#63C9FF</color>
+    <color name="gradEnd">#67EFC8</color>
+    <color name="headings">#3797CF</color>
+    <color name="adress">#2F7092</color>
+    <color name="adresst">#FF9100</color>
+    <color name="cpy">#F4511E</color>
+    <color name="cpydt">#FDD835</color>
+
+
+    <color name="ash">#B2BEB5</color>
+    <color name="black">#000000</color>
+
+    <color name="color_one">#fb7268</color>
+    <color name="color_white">#ededf2</color>
+    <color name="color_two">#E3E0E0</color>
+
+
+
+    <color name="cases">#FFA726</color>
+    <color name="recovered">#66BB6A</color>
+    <color name="deaths">#EF5350</color>
+    <color name="active">#29B6F6</color>
+
+</resources>

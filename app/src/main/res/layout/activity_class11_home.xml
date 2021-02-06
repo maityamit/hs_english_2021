@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dida"
+    android:layout_height="match_parent"
+    tools:context=".Class11HomeActivity">
+
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:padding="8dp"
+        android:textSize="22sp"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:gravity="center_horizontal"
+        android:background="@drawable/button1"
+        android:layout_gravity="center_horizontal"
+        android:text="WBCHSE Class 12"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_margin="15dp"
+                android:padding="5dp"
+                app:cardCornerRadius="20dp"
+                android:layout_height="100dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:id="@+id/class11learning"
+                    android:weightSum="4">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="0dp"
+                        android:layout_height="70dp"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/dida5"
+                        android:layout_gravity="center"
+                        android:layout_weight="1" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginStart="15dp"
+                        android:layout_weight="3"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_gravity="center_vertical"
+                            android:textSize="22sp"
+                            android:gravity="center_vertical"
+                            android:textColor="@color/amita"
+                            android:textStyle="bold"
+                            android:layout_weight="1"
+                            android:text="MCQ and SAQ"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:textColor="@android:color/black"
+                            android:layout_weight="1"
+                            android:layout_gravity="center_vertical"
+                            android:text="Short Question and ans"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginBottom="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:padding="5dp"
+                app:cardCornerRadius="20dp"
+                android:layout_height="100dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:id="@+id/class11solutions"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="0dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/realestate1"
+                        android:layout_gravity="center"
+                        android:layout_weight="1" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="3"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:gravity="center"
+                            android:textSize="22sp"
+                            android:textColor="@color/amitb"
+                            android:textStyle="bold"
+                            android:layout_weight="1"
+                            android:text="Long Question"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:textColor="@android:color/black"
+                            android:text="Long Questions"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>
