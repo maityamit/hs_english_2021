@@ -1,11 +1,14 @@
-# hs_english_2021
-hs_english_2021
+# HS English 2021 Suggestion 
+HS English Exam of West Bengal 
 
-# wb_physics
-wb_physics
+# ⚙️ Features 
+1. See all the Subject wise suggestion
+2. You can acess the suggestion free
+3. past Year Question
 
-This is <b>WB English CLass 11 </b>
+## 📸 Screenshots
 
-It is Open Source for all..
-
-Created By <b><u>Amit Maity</u></b>
+|||||
+|:----------------------------------------:|:-----------------------------------------:|:-----------------------------------------:|:-----------------------------------------: |
+| ![Imgur](Demo/1.jpg) | ![Imgur](Demo/2.jpg) | ![Imgur](Demo/3.jpg) | ![Imgur](Demo/4.jpg) |
+| ![Imgur](Demo/5.jpg) | ![Imgur](Demo/6.jpg) | ![Imgur](Demo/7.jpg) | ![Imgur](Demo/8.jpg) |
